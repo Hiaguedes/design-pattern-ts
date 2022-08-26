@@ -3,9 +3,14 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run ./src/index.ts"
+    "start": "bun run ./src/index.ts",
+    "interface-segregation": "bun run ./src/interface-segregation/index.ts",
+    "observer": "bun run ./src/observer/index.ts"
   },
   "devDependencies": {
     "bun-types": "^0.1.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
   }
 }
