@@ -8,9 +8,9 @@
     "observer": "bun run ./src/observer/index.ts"
   },
   "devDependencies": {
-    "bun-types": "^0.1.0"
+    "bun-types": "^1.2.4"
   },
   "dependencies": {
-    "chalk": "^5.0.1"
+    "chalk": "^5.4.1"
   }
 }
