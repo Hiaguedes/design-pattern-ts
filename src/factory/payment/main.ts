@@ -1,9 +1,10 @@
-/// <reference path="./interfaces.ts" />
-/// <reference path="./checkout/checkout.ts" />
-/// <reference path="./pix/factory.ts" />
-/// <reference path="./pix/processor.ts" />
-/// <reference path="./mercadopago/factory.ts" />
-/// <reference path="./mercadopago/processor.ts" />
+import { CheckoutFactory } from "./checkout/checkout";
+import { MercadoPagoFactory } from "./mercadopago/factory";
+import { PixFactory } from "./pix/factory";
 
-const checkoutPix = new WithFactoryMethod.CheckoutFactory(new WithFactoryMethod.PixFactory());
+
+const checkoutPix = new CheckoutFactory(new PixFactory());
 checkoutPix.processPayment(114.32);
+
+const checkoutMercadoPago = new CheckoutFactory(new MercadoPagoFactory());
+checkoutMercadoPago.processPayment(224.32);
