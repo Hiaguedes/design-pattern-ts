@@ -13,7 +13,7 @@ O builder permite construir objetos complexos passo a passo, separando o process
 
 - Criar uma classe builder separada que encapsula a logica de construcao
 - Permitir a configuracao de diferentes caracteristicas de forma independente
-- Possibilitar a criacao do objeto final apenas qando estiver completamente configurado
+- Possibilitar a criacao do objeto final apenas quando estiver completamente configurado
 
 
 ## Exemplos de uso

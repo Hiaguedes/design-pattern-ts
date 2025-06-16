@@ -17,5 +17,4 @@ export interface OrderCheckoutBuilder {
     setShippingAddress(address: Address): this;
     construct(): void; // constroi o objeto OrderCheckout com a configuracao atual, ele nao retorna o objeto construido apenas constroi internamente
     getResult(): OrderCheckout;  // retorna o objeto OrderCheckout construido, obtem o produto apos a construcao
-    applyDiscount?(value: number, discount: Discount): this;
 }
